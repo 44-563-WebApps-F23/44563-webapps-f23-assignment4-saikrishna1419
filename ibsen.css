@@ -1,0 +1,25 @@
+.speech{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: black;
+}
+
+.direction{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    color: black;
+    background-color: #ededed;
+    transition: background-color 0.3s, color 0.3s;
+}
+.direction:hover{
+    background-color: #f0d399;
+    color: white;
+}
+
+.name1{
+    color: #ff0000;
+}
+
+.name2{
+    color: #006600;
+}
