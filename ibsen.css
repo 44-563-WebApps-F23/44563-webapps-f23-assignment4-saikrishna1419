@@ -53,6 +53,31 @@
     } 
 
 .name_miss:hover{
-text-shadow: 5px 5px 5px #ff0000;
+text-shadow: px 5px 5px #ff0000;
 border: 2px solid #ff0000;
+}
+
+/* Style for the bottom navbar */
+.navbar {
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #e8c1c1; /* Background color */
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 99%;
+}
+
+/* Style for navbar links */
+.navbar a {
+    display: inline-block;
+    padding: 10px 20px; 
+    text-align: center;
+    text-decoration: none;
+    color: #fff; 
+}
+
+/* Hover effect for navbar links */
+.navbar a:hover {
+    background-color: #edabab; /* Background color on hover */
 }
