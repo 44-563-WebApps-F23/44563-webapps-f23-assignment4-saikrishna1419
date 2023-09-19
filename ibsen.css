@@ -30,6 +30,7 @@
     width: 100%;
     border-collapse: collapse;
     margin-top: 30px;
+    boarder
 }
 
 .character-table th,
@@ -48,13 +49,16 @@
 }
 
 .name_berta:hover{
+    font-family: 'Times New Roman', Times, serif;
     text-shadow: 5px 5px 5px #1b96e3;
     border: 2px solid  #1b96e3;
     } 
 
 .name_miss:hover{
-text-shadow: px 5px 5px #ff0000;
-border: 2px solid #ff0000;
+    font-family: 'Times New Roman', Times, serif;
+   /* background-color: #e8c1c1;*/
+    text-shadow: 5px 5px 5px #ff0000;
+    border: 2px solid #ff0000;
 }
 
 /* Style for the bottom navbar */
